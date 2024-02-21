@@ -1,0 +1,13 @@
+pip_install_packages:
+  - docker
+datadog_site: "datadoghq.eu"
+datadog_config:
+  logs_enabled: true
+
+datadog_checks:
+  http_check:
+    init_config:
+
+    instances:
+      - name: Localhost
+        url: http://localhost

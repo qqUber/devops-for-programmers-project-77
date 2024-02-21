@@ -1,0 +1,14 @@
+# Временные файлы из любых каталогов
+*~
+
+# Файлы резервных копий из любых каталогов
+**/*.bak
+
+vault-password
+
+terraform/.terraform
+ansible/inventory.ini
+.DS_Store
+vault_generated.yml
+*.tfstate
+.terraform.lock.hcl

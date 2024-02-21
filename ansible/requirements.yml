@@ -1,0 +1,6 @@
+roles:
+  - name: datadog.datadog
+    version: 4.16.0
+  - name: geerlingguy.pip  
+collections:
+  - name: community.docker
