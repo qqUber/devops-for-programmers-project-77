@@ -1,4 +1,4 @@
-# The final project of DevOps cource
+# DevOps_Project 77 
 
 <!---[![Actions Status](https://github.com/qquber/devops-for-programmers-project-77/workflows/hexlet-check/badge.svg)](https://github.com/qquber/devops-for-programmers-project-77/actions)-->
 
@@ -9,9 +9,9 @@ http://akhan-belike.site/
 
 ### Step 1. Pre-setup
 
-1. Create token [do_token](https://docs.digitalocean.com/reference/api/create-personal-access-token/)
-2. Register in [Terraform Cloud](https://app.terraform.io)(TC)
-3. Create and store `datadog_api_url, datadog_api_key, datadog_app_key` [DataDog](https://app.datadoghq.eu/)(DD) account
+1. Create token DigitalOcean [do_token](https://docs.digitalocean.com/reference/api/create-personal-access-token/)
+2. Register in [Terraform Cloud](https://app.terraform.io)
+3. Create and store `datadog_api_url, datadog_api_key, datadog_app_key` [DataDog](https://app.datadoghq.eu/)
 4. Add `do_token, datadog_api_url, datadog_api_key, datadog_app_key` into [Terraform Cloud->Variables](https://app.terraform.io/app/qquber/workspaces/qquber/variables)
 5. Create Terraform Cloud variables for `PROJECT_NAME` and `DOMAIN` with expected values
 
@@ -26,7 +26,6 @@ http://akhan-belike.site/
 ### Step 4. Deploy Redmine app
 
 1. `make deploy`
-
 
 ## Make commands
 Terraform
